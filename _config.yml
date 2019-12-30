@@ -52,6 +52,6 @@ social_media:
     youtube: ZhangDanFanClub
 
 topics:
-  - name: quantum computing report
-    web_url: https://quantumcomputingreport.com/
-    image_url: https://secureservercdn.net/184.168.47.225/80b.bf1.myftpupload.com/wp-content/uploads/2016/03/Block-Sphere-Large.bmp
+  - name: 在线圣经
+    web_url: http://www.bbintl.org/bible/read/?lang=gb&ref=DT&ch=1&bkref=gb&t=N&sname=Luk&b=%E8%B7%AF%E5%8A%A0%E7%A6%8F%E9%9F%B3
+    image_url: http://www.bbintl.org/bible/img/bible7.gif
