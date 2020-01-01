@@ -4,6 +4,14 @@ layout: sidebar
 #style: dark
 
 
+# donot compile those files
+exclude:
+  - README.md
+  - original_README.md
+  - clean_files.sh
+  - start_server.sh
+  - github-readme.md
+
 plugins:
   - jekyll-octicons
   - jekyll-github-metadata
