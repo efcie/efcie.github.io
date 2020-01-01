@@ -33,8 +33,18 @@
 3 - 网站自动更新需要五分钟左右
 
 
-以下是开发人员素材 For developers
+以下是开发人员素材
+
+## For developers
+
+* markdown to html conversion
 
 https://markdowntohtml.com/
 
+* fix folk problem
+
 [https://www.sitepoint.com/quick-tip-sync-your-fork-with-the-original-without-the-cli/]
+
+* add google analytics for jekyll project
+
+Put it in the footer right before </body>, other wise the page layout will be messed up. Not sure about the reason. It still cause some problem this way, but it seems to be fine right now.
