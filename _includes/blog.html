@@ -2,7 +2,7 @@
 教会动态-最新消息-電子周報-圖文集錦                                                                                               
 </h2>
 
-<h2 class="mt-3 mb-3">
+<h2>
      电子周报
 </h2>
 <p class="f4 mb-4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">
@@ -12,7 +12,7 @@ weekly
   {% for file in site.static_files %}
   {% if file.path contains "/assets/weekly/" and file.extname == ".pdf" %}
   
-  <li> <a href="{{ file.path }}"> {{ file.basename }} </a> </li>
+  <li> <a href="{{ file.path }}"> {{ file.basename | slice: 0, 10}} </a> </li>
 
   {% endif %}
   {% endfor %}
