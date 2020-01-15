@@ -15,7 +15,7 @@ weekly
   {% for file in site.static_files %}
   {% if file.path contains "/assets/weekly/" and file.extname == ".pdf" %}
 
-  <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 ">
+  <div class="col-sm-6 col-md-6 col-lg-3 col-xl-2 ">
     <!-- the total should add up to 12. xs (phones), sm (tablets), md (desktops), and lg (larger desktops)  --->
   <li> <a href="{{ file.path }}"> {{ file.basename | remove: "週報" | remove: "ﬂLàÛ" }} </a> </li>
   &nbsp;&nbsp;  &nbsp;&nbsp;
