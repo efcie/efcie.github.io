@@ -37,11 +37,25 @@
   {% endfor %}
   {% endif %}
   {% endfor %}
-
 </div>
+
+<div class="d-sm-flex flex-wrap gutter-condensed mb-1">
+  {% for file in site.static_files %}
+  {% if file.path contains "/assets/letters/" and file.extname == ".pdf" %}
+
+  <div class="col-sm-6 col-md-6 col-lg-3 col-xl-4 ">
+    <!-- the total should add up to 12. xs (phones), sm (tablets), md (desktops), and lg (larger desktops)  --->
+  <li> <a href="{{ file.path }}" target="_blank"> {{ file.basename | remove: "週報" | remove: "ﬂLàÛ" }} </a> </li>
+  &nbsp;&nbsp;  &nbsp;&nbsp;
+  </div>
+  {% endif %}
+  {% endfor %}
+</div>
+
+
+
 <h2 {% if site.style == 'dark' %}class="text-white"{% endif %}>查经资料</h2>
-<p class="f4 mb-4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">
-  To learn more about quantum computing. </p>
+
 <div class="d-flex flex-wrap gutter-condensed mb-4">
   {% for topic in site.topics %}
     <div class="col-6 col-md-12 col-lg-6 col-xl-4 mb-3">
