@@ -66,3 +66,19 @@ topics:
   - name: 公众号-溪边树
     web_url: https://open.weixin.qq.com/qr/code?username=Faith-Hope-Love-365
     image_url: https://open.weixin.qq.com/qr/code?username=Faith-Hope-Love-365
+
+slideshow:
+  - src: shengxiaomei-concert.jpeg
+    alt: Coming SOON! Concert by Sheng Xiaomei
+    href: 2020/03/14/news-xiaomeisheng-concert
+  - src: efc-27th.jpg
+    alt: 27th Anniversary of EFCIE
+  - src: choir.jpg
+    alt: 唱诗班
+  - src: easter2019.jpg
+    alt: 复活节
+  - src: party.jpg
+    alt: 聚会
+  - src: dinner.jpg
+    alt: 聚会
+  

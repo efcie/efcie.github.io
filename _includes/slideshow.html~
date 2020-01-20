@@ -1,0 +1,124 @@
+---
+layout: index
+---
+<!---This is the original resume page, now make it the index page--->
+
+
+<p style="text-align:center">
+
+恩聯 2019 年度主題『傳報喜訊 腳蹤佳美』<br>
+Sharing the Good News, Treading on Lovely Footprints<br>
+(羅馬書 Romans 10：15 )<br>
+</p>
+
+
+<h3 class="mb-5" style="text-align:center">
+
+  主日崇拜：11：00 am-12:30 pm <br>
+  1363 W. Linden Street, Riverside, CA 92507<br>
+  951-788-7822<br>
+  <a href="http://www.efcie.org/"> www.efcie.org </a> <br>
+  efcieweb@gmail.com<br>
+
+  <!--
+    <img src="/assets/efc-27th.jpg" class="rectangular mb-3" style="max-width: 500px;align:middle">
+    --->
+</h3>
+
+
+
+
+<div class="container">
+  <center>
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+    <img src="/assets/slideshow/shengxiaomei-concert.jpeg" style="height:100%">
+  </div>
+
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+    <img src="/assets/slideshow/efc-27th.jpg" style="height:500px">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+    <img src="assets/slideshow/choir.jpg" style="height:500px">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+    <img src="/assets/slideshow/easter2019.jpg" style="height:500px">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+    <img src="/assets/slideshow/party.jpg" style="height:500px">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+    <img src="/assets/slideshow/dinner.jpg" style="height:500px">
+  </div>
+
+  </center>
+  
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+</div>
+
+<div class="row">
+  <div class="column">
+    <img class="demo cursor" src="/assets/shengxiaomei-concert.jpeg" style="height:120px" onclick="currentSlide(1)" alt="shengxiaomei-concert">
+  </div>
+  <div class="column">
+    <img class="demo cursor" src="/assets/efc-27th.jpg" style="width:100%" onclick="currentSlide(2)" alt="EFC 27th">
+  </div>
+  <div class="column">
+    <img class="demo cursor" src="/assets/efc-27th.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+  </div>
+  <div class="column">
+    <img class="demo cursor" src="/assets/efc-27th.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+  </div>
+  <div class="column">
+    <img class="demo cursor" src="/assets/efc-27th.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+  </div>
+  <div class="column">
+    <img class="demo cursor" src="/assets/efc-27th.jpg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+  </div>
+</div>
+</div>
+
+<script>
+  var slideIndex = 1;
+  showSlides(slideIndex);
+
+  function plusSlides(n) {
+      showSlides(slideIndex += n);
+  }
+
+  function currentSlide(n) {
+      showSlides(slideIndex = n);
+  }
+
+  function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("demo");
+      var captionText = document.getElementById("caption");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+	  slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+	  dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+      captionText.innerHTML = dots[slideIndex-1].alt;
+  }
+  </script>

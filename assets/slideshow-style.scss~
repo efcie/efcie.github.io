@@ -54,9 +54,9 @@
 }
 
 
-
 //style for the slideshow. source from
 //https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow_gallery
+
 
 body {
   font-family: Arial;
@@ -92,13 +92,13 @@ img {
 .next {
   cursor: pointer;
   position: absolute;
-  top: 30%;
+  top: 40%;
   width: auto;
   padding: 16px;
   margin-top: -50px;
   color: white;
   font-weight: bold;
-  font-size: 80px;
+  font-size: 20px;
   border-radius: 0 3px 3px 0;
   user-select: none;
   -webkit-user-select: none;
