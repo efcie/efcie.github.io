@@ -216,13 +216,13 @@ img { vertical-align: middle; }
 .cursor { cursor: pointer; }
 
 /* Next & previous buttons */
-.prev, .next { cursor: pointer; position: absolute; top: 30%; width: auto; padding: 16px; margin-top: -50px; color: white; font-weight: bold; font-size: 80px; border-radius: 0 3px 3px 0; user-select: none; -webkit-user-select: none; }
+.prev, .next { cursor: pointer; position: absolute; top: 30%; width: auto; padding: 16px; margin-top: -50px; color: grey; font-weight: bold; font-size: 80px; border-radius: 0 3px 3px 0; user-select: none; -webkit-user-select: none; }
 
 /* Position the "next button" to the right */
 .next { right: 0; border-radius: 3px 0 0 3px; }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover { background-color: rgba(0, 0, 0, 0.8); }
+.prev:hover, .next:hover { background-color: rgba(0, 0, 0, 0.5); }
 
 /* Number text (1/3 etc) */
 .numbertext { color: #f2f2f2; font-size: 12px; padding: 8px 12px; position: absolute; top: 0; }
@@ -233,7 +233,7 @@ img { vertical-align: middle; }
 .row:after { content: ""; display: table; clear: both; }
 
 /* Six columns side by side */
-.column { float: left; width: 16.66%; }
+.column { float: left; width: 16.6%; }
 
 /* Add a transparency effect for thumnbail images */
 .demo { opacity: 0.6; }
