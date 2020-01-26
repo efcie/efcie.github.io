@@ -1,7 +1,7 @@
 <h2 {% if site.style == 'dark' %}class="text-white"{% endif %}>主日讲道 Sunday Worship</h2>
 <p class="f4 mb-4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">
   最新视频/完整视频列表请参考
-  <a href="https://www.youtube.com/user/ZhangDanFanClub/videos"> YouTube </a>
+  <a href="https://www.youtube.com/user/ZhangDanFanClub/videos" target="_blank"> YouTube </a>
 </p>
 
 
@@ -26,9 +26,8 @@
 </p>
 
 
-
-<div class="d-sm-flex flex-wrap gutter-condensed mb-4">
-  
+<!-- not in use anymore. Use the pdf files directly
+<div class="d-sm-flex flex-wrap gutter-condensed mb-4">  
   {% for tag in site.tags %}
 
   {% if tag[0] == 'letter' %}
@@ -38,6 +37,7 @@
   {% endif %}
   {% endfor %}
 </div>
+-->
 
 <div class="d-sm-flex flex-wrap gutter-condensed mb-1">
   {% for file in site.static_files %}
