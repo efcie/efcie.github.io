@@ -5,6 +5,11 @@ layout: post-blog
 tag: news
 ---
 
+# It is canceled/delayed because of the influence of coronavirus. Donot come until further noticed! We apologize for the
+inconvenience.
+# 活动已经推迟，因为受肺炎疫情影响
+
+
 盛曉玫 - 泥土音樂樂團帶給你 - 不變的愛: 幸福 + 好心情 音樂會
 
 內陸帝國不可錯過的盛會!!! 請Facebook/Line/Wechat邀請你的好友!

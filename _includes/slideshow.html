@@ -1,12 +1,12 @@
 
 
-<div class="container">
+<div class="container" style="width:100%">
   <center>
     {% for slide in site.slideshow limit:6 %}
     <div class="mySlides">
       <div class="numbertext">1 / 6</div>
       {% if slide.href %} <a href="{{ slide.href }}">{% endif %}
-	<img src="/assets/slideshow/{{ slide.src }}" style="height:100%">
+	<img src="/assets/slideshow/{{ slide.src }}" style="width:100%">
 	{% if slide.href %} </a> {% endif %}
     </div>
     {% endfor %}
@@ -22,7 +22,7 @@
   <div class="row">
     {% for slide in site.slideshow limit:6 %}
     <div class="column">
-      <img class="demo cursor" src="/assets/slideshow/{{ slide.src }}" style="height:120px" onclick="currentSlide({{ forloop.index }})" 
+      <img class="demo cursor" src="/assets/slideshow/{{ slide.src }}" style="height:60px" onclick="currentSlide({{ forloop.index }})" 
 	   {% if slide.alt %} alt="{{ slide.alt }}" {% else %} alt="{{ slide.src }}" {% endif %}
 	   >
     </div>

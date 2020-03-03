@@ -1,6 +1,6 @@
-#layout: stacked
+layout: stacked
 style: light
-layout: sidebar
+#layout: sidebar
 #style: dark
 
 
@@ -69,9 +69,9 @@ topics:
     image_url: https://open.weixin.qq.com/qr/code?username=Faith-Hope-Love-365
 
 slideshow:
-  - src: shengxiaomei-concert.jpeg
-    alt: Coming SOON! Concert by Sheng Xiaomei
-    href: 2020/03/14/news-xiaomeisheng-concert
+#  - src: shengxiaomei-concert.jpeg
+#    alt: Coming SOON! Concert by Sheng Xiaomei
+#    href: 2020/03/14/news-xiaomeisheng-concert
   - src: efc-27th.jpg
     alt: 27th Anniversary of EFCIE
   - src: choir.jpg

@@ -7,23 +7,8 @@
     <div {% if site.style == 'dark' %}class="text-white"{% endif %}>
       {{ content }}
     </div>
-
-    {% unless posts_total == 0 %}
-      <div class="my-6">
-        {% include thoughts.html %}
-      </div>
-    {% endunless %}
-    
-    <div class="my-6">
-      {% include projects.html %}
-    </div>
-
-    {% if site.topics %}
-      <div class="my-6">
-        {% include interests.html %}
-      </div>
-    {% endif %}
-
+      
+      {% include resource.html %}
 
   </div>
 {% else %}
