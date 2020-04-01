@@ -19,7 +19,7 @@
 			"<\/h6>"
         ],
         "images": [
-            "dist/assets/img/slideshow/efcie_church.jpg"
+            "/dist/assets/img/slideshow/efcie_church.jpg"
         ]
     },
     {
@@ -42,7 +42,7 @@
 			"<\/h6>"
         ], 
         "images": [
-            "dist/assets/img/slideshow/efcie_church.jpg"
+            "/dist/assets/img/slideshow/efcie_church.jpg"
         ]
     }
 ]
