@@ -19,8 +19,7 @@
 			"<\/h6>"
         ],
         "images": [
-            "v1/assets/img/slideshow/efcie_church.jpg",
-			"v1/assets/img/slideshow/sf2.png"
+            "assets/img/slideshow/efcie_church.jpg"
         ]
     },
     {
@@ -29,7 +28,7 @@
         "html": [
             "<h4 class=\"mb-5\" style=\"text-align:center\">",
             "Church Annual Theme: 「Gospel and reconstruction」<br \/>",
-            "Thematic scripture of the year：「Come, let us build the wall of Jerusalem, that we may no longer suffer derision！」<br \/>",
+            "Thematic scripture of the year：「Come, let us build the wall of Jerusalem！」<br \/>",
             "(Nehemiah2：17~18)",
             "<br \/>",
             "<\/h4>",          
